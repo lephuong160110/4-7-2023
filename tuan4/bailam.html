@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0px; margin: 0px auto;}
+
+        .wrapper{min-height: 500px; width: 960px;background-color: rgba(255,255,255,255);}
+
+        header{height: 100px; width: 960px;background-color: rgba(172,75,22,255);}
+
+        h1{}
+
+        nav{height: 80px; width: 960px;background-color: rgba(255,255,255,255);}
+
+        .menu li{height: 40px; width: 120px;background-color: rgba(255,255,255,255);float: left;list-style: none;line-height: 40px;text-indent: 20px;}
+        
+        li a{text-decoration: none;font-weight: bold;color: brown;width: auto;}
+
+        .menu li:hover{background-color: aliceblue;}
+
+        li:hover ul{display: block;position: absolute;}
+
+        nav li ul{display: none;min-width: 350px;position: absolute;}
+
+        .content img{width: 960px;height: 120px;}
+
+        footer img{width: 960px;}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Autumn Travel Company</h1>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a>
+                    <ul>
+                    <li><a href="">Our services</a></li>
+                    <li><a href="">Third party services</a></li>
+                </ul></li>
+                <li><a href="">Order</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <img src="../bailam/img/hinh1.png" alt="" srcset="">
+            <div class="c1">
+
+            </div>
+            <div class="c2">
+
+            </div>
+        </div>
+        <footer>
+            <img src="../bailam/img/hinh3.png" alt="" srcset="">
+        </footer>
+    </div>
+</body>
+</html>
